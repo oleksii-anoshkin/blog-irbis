@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9e0afb2.css",
-    "main.js": "/static/js/main.d20a3fb9.js",
-    "static/media/logo-irbis-blue.webp": "/static/media/logo-irbis-blue.7fc5646c16bcca8cbb26.webp",
-    "static/media/logo-irbis.webp": "/static/media/logo-irbis.39a194d074b1f0ef9e56.webp",
-    "static/media/placeholder.webp": "/static/media/placeholder.e523515169ae7c70113b.webp",
-    "static/media/linkedin-b.webp": "/static/media/linkedin-b.4ac638c8155fc74f4ed1.webp",
-    "static/media/facebook-b.webp": "/static/media/facebook-b.3189c18010687f4547f7.webp",
-    "static/media/linkedin-w.webp": "/static/media/linkedin-w.0905879b394112d979db.webp",
-    "index.html": "/index.html",
-    "static/media/facebook-w.webp": "/static/media/facebook-w.26578ad7d560f8c62037.webp",
-    "static/media/no-user-image.webp": "/static/media/no-user-image.3ea5ff3739f6f589729a.webp",
-    "static/media/arrow-theme-tight.webp": "/static/media/arrow-theme-tight.2a6f13c5062b6c9e0767.webp",
-    "main.f9e0afb2.css.map": "/static/css/main.f9e0afb2.css.map",
-    "main.d20a3fb9.js.map": "/static/js/main.d20a3fb9.js.map"
+    "main.css": "/blog-irbis/static/css/main.4fc0524b.css",
+    "main.js": "/blog-irbis/static/js/main.99fa7b09.js",
+    "static/media/logo-irbis-blue.webp": "/blog-irbis/static/media/logo-irbis-blue.7fc5646c16bcca8cbb26.webp",
+    "static/media/logo-irbis.webp": "/blog-irbis/static/media/logo-irbis.39a194d074b1f0ef9e56.webp",
+    "static/media/placeholder.webp": "/blog-irbis/static/media/placeholder.e523515169ae7c70113b.webp",
+    "static/media/linkedin-b.webp": "/blog-irbis/static/media/linkedin-b.4ac638c8155fc74f4ed1.webp",
+    "static/media/facebook-b.webp": "/blog-irbis/static/media/facebook-b.3189c18010687f4547f7.webp",
+    "static/media/linkedin-w.webp": "/blog-irbis/static/media/linkedin-w.0905879b394112d979db.webp",
+    "index.html": "/blog-irbis/index.html",
+    "static/media/facebook-w.webp": "/blog-irbis/static/media/facebook-w.26578ad7d560f8c62037.webp",
+    "static/media/no-user-image.webp": "/blog-irbis/static/media/no-user-image.3ea5ff3739f6f589729a.webp",
+    "static/media/arrow-theme-tight.webp": "/blog-irbis/static/media/arrow-theme-tight.2a6f13c5062b6c9e0767.webp",
+    "main.4fc0524b.css.map": "/blog-irbis/static/css/main.4fc0524b.css.map",
+    "main.99fa7b09.js.map": "/blog-irbis/static/js/main.99fa7b09.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9e0afb2.css",
-    "static/js/main.d20a3fb9.js"
+    "static/css/main.4fc0524b.css",
+    "static/js/main.99fa7b09.js"
   ]
 }
