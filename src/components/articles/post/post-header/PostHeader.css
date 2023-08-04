@@ -1,0 +1,20 @@
+.post-page__header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin: 6% 0 4%;
+}
+
+@media (min-width: 1441px) {
+  .post-page__header {
+    margin: 60px 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-page__header {
+    padding: 40px 0;
+  }
+}

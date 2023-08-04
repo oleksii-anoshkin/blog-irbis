@@ -1,0 +1,28 @@
+.logo__link {
+  display: block;
+
+  transition: var(--animation);
+}
+
+.logo__img {
+  width: auto;
+  height: 36px;
+}
+
+.logo__link:hover,
+.logo__link:focus {
+  transform: scale(1.1);
+}
+
+.logo__link:active {
+  transform: scale(0.95);
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__logo .logo__img {
+  width: auto;
+  height: 52px;
+}

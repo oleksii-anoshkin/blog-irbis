@@ -1,0 +1,26 @@
+.post-page__body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 4% 0 8%;
+
+  border-bottom: 3px solid var(--line-color);
+}
+
+@media (min-width: 1441px) {
+  .post-page__body {
+    padding: 40px 0 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-page__body {
+    padding: 40px 0;
+  }
+
+  .post-page__body .post-page__body-title {
+    margin-bottom: 30px;
+  }
+}

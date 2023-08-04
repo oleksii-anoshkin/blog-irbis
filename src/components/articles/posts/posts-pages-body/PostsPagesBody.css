@@ -1,0 +1,21 @@
+.posts-pages-body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  padding: 8% 0;
+
+  width: 100%;
+}
+
+@media (min-width: 1441px) {
+  .posts-pages-body {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .posts-pages-body {
+    padding: 60px 0;
+  }
+}

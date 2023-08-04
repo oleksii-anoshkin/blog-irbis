@@ -1,0 +1,11 @@
+.header__search {
+  flex: 0 1 53.236%;
+
+  padding-left: 4.412%;
+}
+
+@media (max-width: 1024px) {
+  .header__search {
+    display: none;
+  }
+}

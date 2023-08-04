@@ -1,0 +1,36 @@
+.post-page__description,
+.posts-cards__description {
+  margin: 0;
+  max-width: 800px;
+  opacity: 0.6;
+}
+
+.post-page__description {
+  flex: 0 1 80%;
+}
+
+.posts-cards__description {
+  margin-bottom: 3.405%;
+}
+
+.main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__description {
+  margin-bottom: 1.6%;
+}
+
+@media (min-width: 1441px) {
+  .posts-cards__description {
+    margin-bottom: 16px;
+  }
+
+  .main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__description {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .posts-cards__description,
+  .main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__description {
+    margin-bottom: 16px;
+  }
+}

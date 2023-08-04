@@ -1,0 +1,10 @@
+.post-page {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (max-width: 768px) {
+  .post-page__related-posts .post-page__title {
+    margin-bottom: 30px;
+  }
+}

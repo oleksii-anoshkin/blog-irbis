@@ -1,0 +1,36 @@
+.post-page__related-posts {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 8% 0 10%;
+
+  width: 100%;
+  height: auto;
+}
+
+.post-page__related-posts .post-page__title {
+  margin: 0 auto 3%;
+
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@media (min-width: 1441px) {
+  .post-page__related-posts {
+    padding: 80px 0 100px;
+  }
+
+  .post-page__related-posts .post-page__title {
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-page__related-posts {
+    padding: 60px 0;
+  }
+}

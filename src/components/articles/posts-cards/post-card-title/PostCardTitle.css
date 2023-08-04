@@ -1,0 +1,30 @@
+.posts-cards__title {
+  margin-bottom: 3.405%;
+
+  max-width: 800px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__title {
+  margin-bottom: 1.6%;
+}
+
+@media (min-width: 1441px) {
+  .posts-cards__title {
+    margin-bottom: 16px;
+  }
+
+  .main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__title {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .posts-cards__title,
+  .main__posts-pages.posts-pages-header .posts-cards__post-card:first-child .posts-cards__title {
+    margin-bottom: 16px;
+  }
+}

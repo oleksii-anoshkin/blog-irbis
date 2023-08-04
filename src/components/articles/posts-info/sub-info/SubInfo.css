@@ -1,0 +1,21 @@
+.post-page__sub-info {
+  display: flex;
+  flex-flow: row nowrap;
+
+  width: 100%;
+}
+
+@media (max-width: 540px) {
+
+  .post-page__sub-info {
+    flex-flow: column nowrap;
+  }
+
+  .post-page__description {
+    margin-bottom: 12px;
+  }
+
+  .post-page__tags {
+    margin: 0;
+  }
+}

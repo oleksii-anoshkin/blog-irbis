@@ -1,0 +1,15 @@
+.post-page__body-title {
+  margin-bottom: 3%;
+
+  max-width: 800px;
+
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 1441px) {
+  .post-page__body-title {
+    margin-bottom: 30px;
+  }
+}

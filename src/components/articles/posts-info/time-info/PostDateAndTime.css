@@ -1,0 +1,8 @@
+.info__time-and-date {
+  grid-column: 2 / 3;
+  grid-row: 2 / 2;
+
+  margin: 0;
+
+  opacity: 0.4;
+}

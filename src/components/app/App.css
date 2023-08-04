@@ -1,0 +1,23 @@
+  .wrap__theme_light {
+    --main-font-color: var(--dark);
+    --main-bg-color: var(--white);
+    /* tags colors */
+    --tag-font-color: var(--blue);
+    --tag-bg-color: transparent;
+    --tag-border-color: var(--blue);
+
+    color: var(--dark);
+    background-color: var(--white);
+  }
+
+  .wrap__theme_dark {
+    --main-font-color: var(--white);
+    --main-bg-color: var(--dark);
+    /* tags colors */
+    --tag-font-color: var(--white);
+    --tag-bg-color: var(--blue);
+    --tag-border-color: var(--blue);
+
+    color: var(--white);
+    background-color: var(--dark);
+  }

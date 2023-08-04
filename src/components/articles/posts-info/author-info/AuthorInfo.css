@@ -1,0 +1,8 @@
+  .info__author-name-and-job {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    margin: 0;
+
+    opacity: 0.4;
+  }

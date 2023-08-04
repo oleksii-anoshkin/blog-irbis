@@ -1,0 +1,22 @@
+.post-page__title {
+  margin-bottom: 3%;
+
+  width: fit-content;
+
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1.44;
+}
+
+@media (min-width: 1441px) {
+  .post-page__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-page__title {
+    font-size: 30px;
+      margin-bottom: 30px;
+    }
+}

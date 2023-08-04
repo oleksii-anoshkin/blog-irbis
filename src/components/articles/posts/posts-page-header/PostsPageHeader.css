@@ -1,0 +1,23 @@
+.posts-pages-header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  padding: 4% 0 8%;
+
+  width: 100%;
+
+  border-bottom: 3px solid var(--line-color);
+}
+
+@media (min-width: 1441px) {
+  .posts-pages-header {
+    padding: 40px 0 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .posts-pages-header {
+    padding: 40px 0 60px;
+  }
+}

@@ -1,0 +1,33 @@
+  /* links */
+  .link {
+    position: relative;
+    text-decoration: none;
+
+    transition: var(--animation);
+  }
+
+  .link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 0;
+    height: 2px;
+
+    transition: var(--animation);
+  }
+
+  .link:hover::after,
+  .link:focus::after,
+  .link.current::after {
+    width: 100%;
+  }
+
+  .link:hover:active {
+    color: var(--header-elem-active);
+  }
+
+  .link:hover:active::after {
+    background: var(--header-elem-active);
+  }

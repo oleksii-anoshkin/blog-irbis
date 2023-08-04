@@ -1,0 +1,35 @@
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.post-page-title {
+  margin: 0 auto 3%;
+}
+
+.posts-pages-header__title,
+.posts-pages-body__title {
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+@media (min-width: 1441px) {
+
+  .post-page-title,
+  .main__posts-header-title,
+  .posts-pages-body__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .title
+  .post-page-title,
+  .posts-pages-header__title,
+  .main__posts-header-title,
+  .posts-pages-body__title {
+    margin-bottom: 30px;
+  }
+}

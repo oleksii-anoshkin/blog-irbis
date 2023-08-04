@@ -1,0 +1,28 @@
+.posts-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 0;
+  padding: 0;
+}
+
+.posts-cards__link {
+  display: block;
+
+  width: fit-content;
+  height: 28px;
+
+  color: inherit;
+}
+
+.posts-cards__link::after {
+  background-color: var(--main-font-color);
+}
+
+@media (max-width: 540px) {
+  .posts-cards {
+    flex-flow: column wrap;
+  }
+}

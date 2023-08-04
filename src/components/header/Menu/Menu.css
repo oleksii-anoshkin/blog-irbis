@@ -1,0 +1,84 @@
+.header__menu {
+  flex: 0 1 28px;
+  height: 24px;
+}
+
+.menu {
+  position: relative;
+
+  display: none;
+
+  background-color: transparent;
+}
+
+.menu__line {
+  position: absolute;
+  left: 0;
+
+  height: 2px;
+
+  border-radius: 2px;
+
+  background: var(--header-font-color);
+
+  transition: var(--animation);
+}
+
+.top {
+  top: 0;
+  width: 100%;
+}
+
+.mid {
+  top: 11px;
+  width: 70%;
+}
+
+.bot {
+  bottom: 0;
+  width: 40%;
+}
+
+.menu:hover .mid,
+.menu:focus .mid,
+.menu:hover .bot,
+.menu:focus .bot {
+  width: 100%;
+}
+
+.menu:active .mid,
+.menu:active .bot,
+.menu:active .top {
+  background: var(--header-elem-active);
+}
+
+.menu.close .mid {
+  opacity: 0;
+}
+
+.menu.close .bot,
+.menu.close .top {
+  top: 12px;
+  width: 100%;
+}
+
+.menu.close:hover .bot,
+.menu.close:hover .top,
+.menu.close:focus .bot,
+.menu.close:focus .top {
+  scale: 1.15;
+}
+
+.menu.close .bot {
+  rotate: 45deg;
+}
+
+.menu.close .top {
+  rotate: -45deg;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+  }
+}

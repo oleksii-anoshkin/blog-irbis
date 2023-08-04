@@ -1,0 +1,47 @@
+.post-page__arrow-box {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 5%;
+
+  width: fit-content;
+  height: 30px;
+}
+
+.post-page__arrow-link {
+  font-size: 18px;
+  line-height: 1.56;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.4;
+
+  transition: var(--animation);
+}
+
+.post-page__arrow-link::before {
+  content: '';
+  padding-right: 32px;
+
+  background: url('./arrow-theme-tight.webp') left center / 80% no-repeat;
+}
+
+.post-page__arrow-link:hover,
+.post-page__arrow-link:focus {
+  opacity: 0.75;
+}
+
+.post-page__arrow-link:active {
+  opacity: 1;
+}
+
+@media (min-width: 1441px) {
+  .post-page__arrow-box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-page__arrow-box {
+    margin-bottom: 50px;
+  }
+}

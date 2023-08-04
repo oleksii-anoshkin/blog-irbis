@@ -1,0 +1,14 @@
+.post-page__body-text {
+  max-width: 800px;
+
+  opacity: 0.6;
+}
+
+@media (min-width: 1441px) {
+  .post-page__body-text {
+    max-width: 100%;
+
+    columns: 2;
+    column-gap: 100px;
+  }
+}
